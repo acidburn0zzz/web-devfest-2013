@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html ng-app="devfest">
+<head>
+	<title>GDG Madrid - DevFest 2013</title>
+	
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="assets/css/bootstrap.css" media="screen">
+	<link rel="stylesheet" href="assets/css//font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css//bootswatch.min.css">
+	<link rel="stylesheet" href="css/devfest.css">
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	      <script src="assets/js/html5shiv.js"></script>
+	      <script src="assets/js/respond.min.js"></script>
+	<![endif]-->	
+</head>
+
+<body>
+	
+	<div class="navbar navbar-default navbar-fixed-top">
+	      <div class="container">
+	        <div class="navbar-header">
+	          <a href="#" class="navbar-brand">DevFest 2013</a>
+	          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	          </button>
+	        </div>
+	        <div class="navbar-collapse collapse" id="navbar-main">
+	          <ul class="nav navbar-nav">
+	            <li>
+	              <a href="#">Inicio</a>
+	            </li>
+	            <li>
+	              <a href="#/agenda">Agenda</a>
+	            </li>
+				<li>
+				  <a href="#/localizacion">Localización</a>
+			  </li>
+			  <li>
+				  <a href="#/inscripcion">Inscripción</a>
+			  </li>
+			  <li>
+				  <a href="#/otros_devfest">Otros DevFest</a>	            
+	          </ul>
+
+	        </div>
+	      </div>
+	    </div>
+		
+		
+		<div id="logo"> 
+		</div>	
+	
+	    <div class="container">
+	
+	    	<div ng-view></div>
+		
+		
+			<div id="patrocinadores-container" ng-include="'partials/patrocinadores.html'">
+			</div>
+			
+			<div id="organizadores-container" ng-include="'partials/organizadores.html'">
+			</div>
+		
+		</div>
+		
+		<footer>		
+			 <ul class="list-unstyled">
+		    	 <li class="pull-right"><a href="#top">Ir al inicio</a></li>
+		         <li><a href="https://plus.google.com/u/0/communities/106561953391669938292">Grupo Google +</a></li>
+		     </ul>
+		     <p>
+				 Usando <a href="http://getbootstrap.com">Bootstrap</a>, 
+				 <a href="http://bootswatch.com/spacelab">Spacelab</a> y 
+				 <a href="http://angularjs.org/"> AngularJS</a>.
+			</p>
+
+        </footer>
+	
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+	    <script src="assets/js/bootstrap.min.js"></script>
+		<script src="js/app.js"></script>
+		
+</body>
+
+</html>
