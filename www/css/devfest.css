@@ -14,17 +14,22 @@ footer {
 	padding: 5px 5px 5px 5px;
 }
 
+#gdg-icon {
+    height: 16px;
+    width: 16px;
+}
+
 #patrocinadores-container {
 	margin-top: 100px;
 	border-top: 1px solid #c4c4c4;
 }
 
 #sponsor-logo {
-	max-width: 300px;
+	max-width: 200px;
 }
 
 #organizador-logo {
-	max-width: 300px;
+	max-width: 200px;
 }
 
 .thumbnail {
