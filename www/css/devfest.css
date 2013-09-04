@@ -38,3 +38,14 @@ footer {
 .thumbnail .caption {
 	text-align: center;
 }
+
+
+.ponente {
+    padding-top: 20x;
+}
+/**
+ * ponente image
+ */
+.ponente-photo {
+    max-width: 84px;
+}

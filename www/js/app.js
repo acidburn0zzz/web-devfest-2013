@@ -4,6 +4,7 @@
 angular.module('devfest', []).
     config(['$routeProvider', function($routeProvider) {
         $routeProvider.
+	    when('/ponentes', {templateUrl: 'partials/ponentes.html'}).
             when('/agenda', {templateUrl: 'partials/agenda.html'}).
             when('/localizacion', {templateUrl: 'partials/localizacion.html'}).
             when('/inscripcion', {templateUrl: 'partials/inscripcion.html'}).
