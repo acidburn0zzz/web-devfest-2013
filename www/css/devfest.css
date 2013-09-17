@@ -43,10 +43,16 @@ footer {
 .ponente {
     padding-top: 20x;
 }
+
 /**
  * ponente image
  */
 .ponente-photo {
     max-width: 84px;
+}
+
+
+.logo-devfest {
+    max-width: 350px;
 }
 
