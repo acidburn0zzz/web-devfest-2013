@@ -63,3 +63,12 @@ img.colaborador-logo {
     max-width: 350px;
 }
 
+#carousel-location {
+    max-width: 470px;
+    max-height: 400px;
+}
+
+
+img.carousel {
+    max-height: 350px;
+}
