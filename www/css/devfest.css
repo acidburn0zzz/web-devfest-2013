@@ -72,3 +72,29 @@ img.colaborador-logo {
 img.carousel {
     max-height: 350px;
 }
+
+
+table.agenda {
+    text-align: center;
+    vertical-align: middle;
+}
+
+th {
+    text-align: center;
+}
+
+col.horas {
+    width: 130px;
+}
+
+tr.bloque1 {
+    height: 30px;
+}
+
+tr.bloque2 {
+    height: 60px;
+}
+
+tr.bloque3 {
+    height: 90px;
+}
