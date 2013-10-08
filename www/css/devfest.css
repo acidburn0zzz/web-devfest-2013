@@ -7,6 +7,10 @@ footer {
     border-top: 1px solid #c4c4c4;
 }
 
+.center {
+    text-align: center;
+}
+
 #logo {
     content: url("../images/devfest-2013_logo.png");
     margin-left: auto;
@@ -31,6 +35,10 @@ img.sponsor-logo {
 }
 
 img.organizador-logo {
+    max-width: 200px;
+}
+
+img.agencia-logo {
     max-width: 200px;
 }
 
