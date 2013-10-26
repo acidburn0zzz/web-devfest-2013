@@ -12,5 +12,6 @@ angular.module('devfest', []).
             when('/inicio', {templateUrl: 'partials/inicio.html'}).
             when('/info-patrocinadores', {templateUrl: 'partials/info-patrocinadores.html'}).
             when('/prensa', {templateUrl: 'partials/prensa.html'}).
+			when('/feedback', {templateUrl: 'partials/feedback.html'}).
             otherwise({redirectTo: '/inicio'});
     }]);
