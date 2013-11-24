@@ -106,3 +106,19 @@ tr.bloque2 {
 tr.bloque3 {
     height: 90px;
 }
+
+
+
+.video {
+    padding-top: 15x;
+    padding-bottom: 15px;
+}
+
+/**
+ * video image
+ */
+.video-photo {
+    max-width: 140px;
+}
+
+

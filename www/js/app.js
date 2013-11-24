@@ -14,5 +14,15 @@ angular.module('devfest', []).
             when('/prensa', {templateUrl: 'partials/prensa.html'}).
 	    when('/feedback', {templateUrl: 'partials/feedback.html'}).
             when('/post-devfest', {templateUrl: 'partials/post-devfest.html'}).
+	    when('/videos/:video', {
+		templateUrl: 'partials/videoRouter.html',
+		controller: 'VideoRouterController'
+		}).
             otherwise({redirectTo: '/inicio'});
     }]);
+
+
+// Video router controller
+function VideoRouterController($scope, $routeParams) {
+    $scope.videoTemplateUrl = 'partials/videos/' + $routeParams.video + '.html';
+}
